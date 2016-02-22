@@ -1,0 +1,11 @@
+# This is Git's per-user configuration file.
+#[user]
+# Please adapt and uncomment the following lines:
+#	name = Julien
+#	email = julien@MacBook-Pro.local
+[user]
+	name = Julien Song
+	email = songjn@qq.com
+[github]
+	user = jet68668
+	token = 4e5dd90bcd72c977d227992d78f239d4e560e5a3
