@@ -6,6 +6,34 @@
 [user]
 	name = Julien Song
 	email = songjn@qq.com
+[core]
+	editor = emacs
 [github]
 	user = jet68668
 	token = 4e5dd90bcd72c977d227992d78f239d4e560e5a3
+[color]
+	status = auto
+	branch = auto
+	diff = auto
+	ui = true
+	pager = true
+[color "branch"]
+       current = yellow reverse
+       local = yellow
+       remote = green
+[color "diff"]
+       meta = yellow bold
+       frag = magenta bold
+       old = red bold
+       new = green bold
+[color "status"]
+       added = green
+       changed = red
+       untracked = cyan
+[alias]
+	co = checkout
+	br = branch
+	st = status
+	df = diff
+	ci = commit
+	last = log -1 HEAD
